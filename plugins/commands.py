@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/SH_Telugu_All_Movies")
+                        InlineKeyboardButton("More Bots", url="https://t.me/SH_Telugu_All_Movies")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
