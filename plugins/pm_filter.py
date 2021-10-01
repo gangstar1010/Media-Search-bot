@@ -272,7 +272,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/SH_Telugu_All_Movies'),
+                    InlineKeyboardButton('Update Channel', url='https://t.me/SHprosearchbot'),
                     InlineKeyboardButton('Support Group', url='https://t.me/KAANNADANEWMOVIEREQUESTINGGROUP')
                 ]
                 ]
