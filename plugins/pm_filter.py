@@ -276,7 +276,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Support Group', url='https://t.me/KAANNADANEWMOVIEREQUESTINGGROUP')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/Shprosearchbot'>Sandesh</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSupport Group : <a href='https://t.me/KAANNADANEWMOVIEREQUESTINGGROUP'>Click here</a>\nUpdate Channel : <a href='https://t.me/SH_Telugu_All_Movies'>SH MOVIES</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/Shprosearchbot'>Sandesh</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSupport Group : <a href='https://t.me/KAANNADANEWMOVIEREQUESTINGGROUP'>Click here</a>\nUpdate Channel : <a href='https://t.me/SHprosearchbot'>SH MOVIES</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -298,7 +298,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('More Updates', url='https://t.me/Shprosearchbot'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/SH_Telugu_All_Movies')
+                        InlineKeyboardButton('Update Channel', url='https://t.me/SHprosearchbot')
                     ]
                     ]
                 
@@ -330,7 +330,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('More Updates', url='https://t.me/Shprosearchbot'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/SH_Telugu_All_Movies')
+                        InlineKeyboardButton('Update Channel', url='https://t.me/SHprosearchbot')
                     ]
                     ]
                 
