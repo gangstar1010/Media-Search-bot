@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Updates', url='https://t.me/SH_Telugu_All_Movies')
+                        InlineKeyboardButton('More Updates', url='https://t.me/SH_OTT')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("More Bots", url="https://t.me/SH_Telugu_All_Movies")
+                        InlineKeyboardButton("More Updates", url="https://t.me/SH_OTT")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
